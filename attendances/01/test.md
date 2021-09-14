@@ -1,1 +1,0 @@
-kurang dari 300
