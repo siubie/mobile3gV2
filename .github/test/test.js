@@ -14,11 +14,13 @@ const MINIMAL_CHARS = 1000;
           console.error(
             `${file} doesn't meet summary requirements (minimum ${MINIMAL_CHARS} chars): ${chars} chars`
           );
+          process.exit(1);
         }
       } catch (error) {
         console.error(`${file} contains unsupported character format`);
+        process.exit(1);
       }
-      process.exit(1);
+
     });
     console.log(`All summary passed`);
     process.exit(0);
