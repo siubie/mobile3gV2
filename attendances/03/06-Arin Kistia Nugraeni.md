@@ -40,10 +40,10 @@ Intent adalah deskripsi dari sebuah operasi untuk dijalankan, merupakan sebuah o
 
 ### Temporal atau Back Navigation
 
-* Disediakan oleh tombol kembali device
-* Dikontrol oleh back-stack sistem Android
+* Disediakan oleh tombol kembali device.
+* Dikontrol oleh back-stack sistem Android.
 
 ### Ancestral atau Up Navigation
 
-* Disediakan oleh bar action aplikasi
+* Disediakan oleh bar action aplikasi.
 * Dikontrol dengan mendefinisikan parent-child relationship antara activity dalam Android manifest.
