@@ -19,7 +19,7 @@
 Activity adalah komponen yang mewakili satu window, satu tingkatan dari tampilan. Biasanya mengisi layar tapi dapat disematkan di layar activity lainnya atau muncul sebagai floating window Java class yang biasanya satu activity dalam satu file. Activity mewakili sebuah activity seperti mengirim email atau mendapatkan petunjuk arah. Activity juga menangani interaksi kepada pengguna, seperti klik tombol, input teks, atau verifikasi login. Dapat pula memulai activity lain di aplikasi yang sama atau yang lain. Activity memiliki siklus dibuat, dimulai, dijalankan, dihentikan sementara, dilajutkan, dihentikan, dan dihancurkan.
 
 * Activity terikat longgar untuk membuat aplikasi.
-* User biasanya melihat 'main activity' sebagai activity pertama.
+* User biasanya melihat 'Main Activity' sebagai activity pertama.
 * Activities dapat diatur dalam parent-child relationship dalam Android manifest untuk membantu navigasi.
 * Activity biasanya memiliki UI layout.
 * Layout biasanya didefinisikan alam satu atau lebih file XML.
