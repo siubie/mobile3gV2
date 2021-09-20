@@ -34,6 +34,7 @@ Activity adalah komponen yang mewakili satu window, satu tingkatan dari tampilan
 
 ## Intent
 
+
 Intent adalah deskripsi dari sebuah operasi untuk dijalankan, merupakan sebuah objek yang digunakan untuk request sebuah aksi dari komponen aplikasi lain via sistem Android.
 
 ## Navigation
