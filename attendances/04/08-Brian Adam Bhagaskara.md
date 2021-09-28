@@ -25,7 +25,7 @@ sumber daya kepada mereka.
 7. TASK GUIDE (B2X.07)
 - Siswa akan memahami bagaimana memulai timer untuk memulai permainan
 - siswa mulai mendeklarasikan metode untuk memulai permainan dan memulai timer.
-8.TASK GUIDE (B2X.087)
+8. TASK GUIDE (B2X.087)
 - Siswa akan memahami bagaimana menangani timer dan menghitung skor.
 - Siswa mulai menyatakan metode untuk menjawab jawaban yang benar dan salah
 lalu tangani dengan timer
