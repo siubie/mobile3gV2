@@ -7,7 +7,7 @@
 * Mendeklarasikan CountDownTimer dan memanfaatkan untuk update timer.
 * Mendeklarasikan List dan Hastable, serta memuat array dari resource untuk itu.
 * Mendeklarasikan method untuk start game dan start timernya.
-* Mendeklarasikan method untuk memberikan respon atas jawaban benar dan salah kemudian ditangani dengan timer.
+* Mendeklarasikan method untuk memberikan respon atas jawaban benar dan salah kemudian ditangani dengan timer
 
 ## Widget
 Widget adalah komponen utama untuk membangun UI di Android, dengan mewarisi kelas view.
