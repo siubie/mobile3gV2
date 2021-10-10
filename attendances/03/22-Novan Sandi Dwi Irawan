@@ -1,0 +1,14 @@
+Pertemuan 3 
+
+Mengerjakan B1_Java-BasicActivityJavaEdition-forAndroidStudio4
+
+Activity
+1. Membuat class Temperature yg didalamnya ada construktor celcius,method setter dan getter untuk suhu celcius,fahrenheit dan kelvin, dan method convert untuk mengonversi suhu.
+2. Membuat class Distance yg didalamnya ada construktor meter,method setter dan getter untuk meter,inch dan mile, dan method convert untuk mengonversi jarak.
+3. Membuat class Weight yg didalamnya ada construktor gram,method setter dan getter untuk gram,ounce dan pound, dan method convert untuk mengonversi berat
+4. Menggunakan MainActivity untuk mendiskripsikan type data, method, membuat method convert unit untuk mengonversi semua element dan method strResult.
+5. Menggunakan MainActivity menambahkan mehtod onCreate, onStart.
+6. Menambahkan Radiogroup pada method onCreate dan menambahkan code di method onCehckedChanged.
+7. Menggunakan algoritma untuk mengonversi nilai.
+8. Membuat klik convertButton
+9. Mengedit UI design
