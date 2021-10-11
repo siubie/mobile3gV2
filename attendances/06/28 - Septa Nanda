@@ -1,0 +1,29 @@
+Struktur Folder
+Ketika membuat project flutter secara default berikut adalah struktur folder dan filenya. 
+Dapat kita lihat strukturnya terdiri dari .dart_tool, .idea, android, ios, lib, test, .gitignore, .metadata, .packages, .flutter_basic.iml, pubspec.lock, pubspec.yaml, README.md.
+Flutter Hot Reload
+Pada flutter terdapat fungsi hot reload dan hot restart yang digunakan untuk pengembangan aplikasi dengan flutter.
+ Hot reload mencompile source code yang baru ditambahkan dan dikirimkan ke dart virtual machine diupdate.
+ Setelah selesai update, dart virtual machine akan memperbarui UI sesuai dengan perubahan. Keunggulan hot reload adalah waktu prosenya cepat disbanding hot restart. 
+Akan tetapi hot reload mempertahan state yang ada sehingga jika menggunakan state maka nilai dari widget tidak akan berubah.
+Hot Reload pada Flutter membantu kita lebih cepat dan mudah dalam ber-experimen, membangun UI, menambahkan fitur-fitur, dan memperbaiki bugs (kesalahan). 
+Cara kerja hot reload adalah dengan meng-inject kode secara langsung pada Dart Virutal Machine (VM) pada saat sedang berjalan. 
+Setelah VM memperbaharui (update) kelas-kelas dengan field-field dan fungsi-fungsi terbaru, Flutter secara otomatis membangun uang struktur widgetnya, sehingga kita langsung bisa melihat perubahan yang kita lakukan
+
+Flutter Hot Restart
+Hot restart akan mencompile ulang aplikasi dan mereset (destroy) state yang ada. Jadi hot restart akan membuild ulang widget tree sesuai dengan code yang telah diperbarui.
+Stateless Widget
+Flutter menggunakan Widget sebagai elemen elemen pembangun UI, widget ini adalah kode program yang diterjemahkan menjadi tampilan yang dapat dilihat dan diinteraksikan oleh pengguna. 
+Stateless widget bersifat statis / final dimana nilai atau konfigurasi telah diinisiasi sejak awal, nilai variabel pada widget ini tidak dapat diubah oleh widget ini sendiri tetapi dapat diubah oleh parent widget nya jika parent nya adalah StatefullWidget.
+Struktur Projek Flutter
+•	lib : berisi source code Dart, di sini kita akan menulis kode aplikasi
+•	test berisi source code Dart untuk testing aplikasi
+•	.gitignore adalah file Git
+•	.metadata merupakan file yang berisi metadata project yang di-generate otomatis;
+•	.packages merupakan file yang berisi alamat path package yang dibuat oleh pub;
+•	flutter_app.iml merupakan file XML yang berisi keterangan project
+•	pubspec.lock merupakan file yang berisi versi-versi library atau package. File ini dibuat oleh pub. Fungsinya untuk mengunci versi package.
+•	pubspec.yaml merupakan file yang berisi informasi tentang project dan libraray yang dibutuhkan
+•	README merupakan file markdown yang berisi penjelasan tentang source code.
+
+
