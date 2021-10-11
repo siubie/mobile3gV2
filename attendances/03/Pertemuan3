@@ -1,0 +1,36 @@
+Semakin lama semakin banyak saja konsumen yang menggunakan perangkat dengan sistem operasi Android. 
+Salah satu istilah pada Android yang biasa kita dengar adalah widget. 
+Widget adalah sebuah “perwakilan” dari aplikasi yang memungkinkan pengguna untuk dapat menggunakan fitur dari aplikasi yang diwakilkan tersebut secara langsung tanpa harus membuka aplikasi “sesungguhnya”. Biasanya widget terletak pada home screen atau tampilan awal layar perangkat Android anda. Atau bisa dibilang widget merupakan aplikasi versi mini yang bisa digunakan secara langsung pada home screen. 
+
+Dasar untuk membuat Widget Android, kita memerlukan yang berikut ini:
+
+•	Objek AppWidget Provider Info
+Menjelaskan metadata untuk Widget Aplikasi, seperti tata letak Widget Aplikasi, frekuensi pembaruan, dan kelas AppWidgetProvider. Ini harus didefinisikan dalam XML 
+•	AppWidgetProvider
+ Menentukan metode dasar yang memungkinkan Anda untuk berinteraksi secara terprogram dengan Widget Android, berdasarkan acara siaran. Melalui itu, Anda akan menerima siaran saat Widget Aplikasi diperbarui, diaktifkan, dinonaktifkan, dan dihapus.
+•	View Layout
+Menentukan tata letak awal untuk Widget Aplikasi, yang ditentukan dalam XML.
+
+Selain itu, Anda dapat menerapkan Aktivitas konfigurasi Widget Android. Ini adalah aktiffitas opsional yang diluncurkan saat pengguna menambahkan Widget Android Anda dan memungkinkan mereka untuk mengubah pengaturan Widget Aplikasi pada waktu pembuatan.
+
+
+
+
+Praktikum B1
+B1X01
+Pertama menghapus semua file pada org.aplas.basicappx (test), lalu membuat Temperature class pada folder yang sama dengan MainActivity. Kemudian membuat private field dengan nama “celcius” dengan tipe data double. Lalu membuat constructor dengan parameter kosong, nantinya constructor ini yang akan menginisiasi field “celcius” dengan nilai 0. Kemudian membuat 3 method dengan rincian sebagai berikut : 
+•	“setCelcius” dengan 1 parameter double yang akan menetapkan pada field “celcius”
+•	“setFahrenheit” dengan 1 parameter double yang akan dikonversi dari F ke C dan menetapkan hasil pada field “celcius”
+•	“setKelvin” dengan 1 parameter double yang akan dikonversi dari K ke C dan menetapkan hasil pada field “celcius”
+Kemudian membuat masing-masing method dengan getMethod untuk mengembalikan nilai double yang terkonversi dari field “celcius”
+Lalu membuat method “convert” untuk mengembalikam nilai double yang telah terkonversi sebagai nilai kembalian. Kemudian menyalin file “TestB1BasicActivityX011.java” dan “ViewTest.java” pada folder “org.aplas.basicappx (test)”. Lalu run “TestB1BasicActivityX011”
+
+B1X02
+Pertama membuat class Distance pada folder yang sama dengan Main Activity. Lalu membuat private field dengan nama “meter” dan tipe data double.
+Lalu membuat constructor dengan parameter kosong yang nanti nya contructor ini akan digunakan untuk menginisiasi field “meter” dengan nilai 0. Membuat 4 set Method untuk menetapkan field “meter” yang merujuk pada formula berikut : 
+•	“setMeter” , dengan 1 parameter double yang akan secara langsung menetap pada field “meter”
+•	“setInch”, dengan 1 parameter double yang akan mengonversi dari inch ke meter dan menetap pada hasil field “meter”
+•	“setMile”, dengan 1 parameter double yang akan mengonversi dari mile ke meter dan menetap pada hasil field “meter”
+•	“setFoot” dengan 1 parameter double yang akan mengonversi dari foot ke meter dan menetap pada hasil field “meter”
+Lalu membuat 4 get Method untuk mengembalikan nilai double yang terkonversi dari field “meter”.
+Kemudian membuat method “convert” untuk mengembalikan nilai double yang terkonversi dariunit original ke unit lain sebagai nilai kembalian. Lalu menyalin file “TestB1BasicActivity021.java” ke folder “org.aplas.basicappx (test)”. Lalu run. 
