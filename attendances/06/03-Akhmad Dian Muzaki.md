@@ -1,4 +1,4 @@
-# Rangkuman Materi Pertemuan 05
+# Rangkuman Materi Pertemuan 06
 Minggu Ke-05 Mata Kuliah Mobile
 --
 
