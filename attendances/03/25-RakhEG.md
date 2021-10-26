@@ -1,0 +1,6 @@
+Navigasi adalah interaksi yang memungkinkan pengguna melihat-lihat, masuk, dan keluar dari berbagai konten dalam aplikasi. Komponen Navigasi Android Jetpack membantu menerapkan navigasi, mulai dari klik tombol sederhana hingga pola yang lebih kompleks, seperti bilah aplikasi dan panel samping navigasi. Komponen Navigasi juga memastikan pengalaman pengguna yang konsisten dan dapat diprediksi dengan mendasarkan pada serangkaian prinsip-prinsip yang telah ditetapkan.
+
+
+Widget Aplikasi adalah tampilan aplikasi mini yang dapat disematkan dalam aplikasi lain (seperti Layar utama) dan menerima update berkala. Tampilan ini disebut sebagai Widget dalam antarmuka pengguna, dan dapat memublikasikannya dengan penyedia Widget Aplikasi. Komponen aplikasi yang dapat menampung Widget Aplikasi lain disebut host Widget Aplikasi. Screenshot di bawah ini menunjukkan Widget Aplikasi Musik.
+
+ harus menentukan tata letak awal untuk Widget Aplikasi dalam XML dan menyimpannya dalam direktori projek res/layout/.  dapat mendesain Widget Aplikasi menggunakan objek View yang ditampilkan di bawah, tetapi sebelum memulai mendesain Widget Aplikasi, baca dan pahami Panduan Desain Widget Aplikasi.

@@ -1,0 +1,13 @@
+Pertemuan 4
+
+Mengerjakan B2_Java-AdvancedWidgetsJavaEdition-forAndroidStudio3
+
+Activity
+1. Membuat project configurasi dengan nama ColorGameX di package org.aplas.colorgamex di dalam project any menggunakan bahasa java menggunakan target API level Android 5.0(Lolipop), menambahkan beberapa color pada file colors.xml, dan mengubah beberapa.
+2. Menambahkan drawable shape dengan nama file round_btn dan didalamnya ada 4 yaitu corner,gradient,size,padding dengan spesifikasinya
+3. Menghapus default didalam layout lalu menambahkan Linear layout dengan id mainlayout, didalam mainlayout tambahkan textviev dengan id appTitle,tambahkan linearlayout dengan id accessBox,colorBox,buttonBox1,spaceBox,buttonBox2,scoreBox,progressBox dan spesisifikasinya
+4. Pada MainActivity dan method onCreate mendeklarasikan sesuai dengan yg di diskripsikan
+5. Pada MainActivity mendeklarasikan sesaui dengan yang dideskripsikan
+6. Pada MainActivity mendeklarasikan sesaui dengan yang dideskripsikan dan menambahkan method initColorList
+7. Pada MainActivity mendeklarasikan sesaui dengan yang dideskripsikan dan menambahkan method getNewRandomInt dengan 3 parameter, menambahkan method newGameStage
+8. Tambahkan private method updateScore dengan satu parameter Int,private method correctSubmit,private method newGameStage dan private method wrongSubmit
